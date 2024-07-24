@@ -26,6 +26,8 @@ body {
     height: 100svh;
 }
 
+
+
 .birthday {
     position: fixed;
     bottom: 5px;
@@ -86,6 +88,16 @@ p {
     line-height: 1.5;
     margin-left: 20px;
     font-weight: 800;
+    position: relative;
+    
+}
+
+.img-birthday-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  transform: translate(0, -15px);
 }
 
 .alias {

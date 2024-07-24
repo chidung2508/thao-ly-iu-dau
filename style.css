@@ -97,7 +97,13 @@ p {
   top: 0;
   right: 0;
   width: 50px;
-  transform: translate(0, -15px);
+  transform: translate(0px, -15px);
+}
+
+@media screen and (max-width: 768px) {
+  .img-birthday-3 {
+    transform: translate(30px, -30px);
+  }
 }
 
 .alias {
@@ -259,6 +265,28 @@ p {
     position: relative;
     z-index: 1100;
     cursor: pointer;
+}
+
+.img-birthday-4 {
+  position: relative;
+    z-index: 1100;
+    cursor: pointer;
+    width: 200px;
+    /* animation: scale 0.3s linear infinite; */
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
 }
 
 .rotate-box {

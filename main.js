@@ -2,7 +2,8 @@ const letters = document.querySelectorAll(".title span");
 const COLORS = ["FFDD83"];
 
 const box = document.querySelector(".box");
-const boxBody = document.querySelector(".box-body");
+// const boxBody = document.querySelector(".box-body");
+const boxBody = document.querySelector(".img-birthday-4");
 const splashScaleUp = document.querySelector(".splash-scale-up");
 const splashContainer = document.querySelector(".splash-container");
 const musicEl = document.querySelector("audio");
@@ -39,7 +40,7 @@ const init = () => {
 
 const handleScaleUpSplashScreen = () => {
   musicEl.play();
-  box.classList.remove("rotate-box");
+  // box.classList.remove("rotate-box");
   boxBody.classList.add("open");
   setTimeout(() => {
     splashScaleUp.style.width = "200vw";
